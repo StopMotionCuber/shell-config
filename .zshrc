@@ -42,7 +42,7 @@ ZSH_THEME="agnoster"
 # DISABLE_AUTO_TITLE="true"
 
 # Uncomment the following line to enable command auto-correction.
-ENABLE_CORRECTION="true"
+# ENABLE_CORRECTION="true"
 
 # Uncomment the following line to display red dots whilst waiting for completion.
 COMPLETION_WAITING_DOTS="true"
@@ -99,7 +99,6 @@ source $ZSH/oh-my-zsh.sh
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 source /usr/local/share/zsh-autosuggestions/zsh-autosuggestions.zsh
-POWERLINE_CONFIG_COMMAND=/Users/ruben/Library/Python/3.7/bin/powerline-config
 
 # tabtab source for packages
 # uninstall by removing these lines
@@ -108,3 +107,4 @@ POWERLINE_CONFIG_COMMAND=/Users/ruben/Library/Python/3.7/bin/powerline-config
 
 # Sources defines
 [[ -f ~/.sh_defines ]] && source ~/.sh_defines || true
+
