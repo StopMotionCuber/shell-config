@@ -68,7 +68,7 @@ COMPLETION_WAITING_DOTS="true"
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git)
+plugins=(git zsh-autosuggestions zsh-syntax-highlighting)
 
 source $ZSH/oh-my-zsh.sh
 
@@ -97,22 +97,6 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
-
-# Source plugins for linux
-if [ -f /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh ]; then
-    source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
-fi
-if [ -f /usr/share/zsh/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh ]; then
-    source /usr/share/zsh/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh
-fi
-
-# Source plugins for macOS
-if [ -f /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh ]; then
-    source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
-fi
-if [ -f /usr/local/share/zsh-autosuggestions/zsh-autosuggestions.zsh ]; then
-source /usr/local/share/zsh-autosuggestions/zsh-autosuggestions.zsh
-fi
 
 # tabtab source for packages
 # uninstall by removing these lines
